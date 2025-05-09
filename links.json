@@ -1,0 +1,205 @@
+{
+  "base_url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons",
+  "categories": {
+    "file": {
+      "description": "Icons representing different file types",
+      "icons": [
+        {
+          "name": "Bash",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/bash.svg",
+          "description": "Bash script file icon"
+        },
+        {
+          "name": "CSS",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/css.svg",
+          "description": "CSS stylesheet file icon"
+        },
+        {
+          "name": "CSV",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/csv-icon.svg",
+          "description": "CSV data file icon"
+        },
+        {
+          "name": "Document",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/document.svg",
+          "description": "General document file icon"
+        },
+        {
+          "name": "JSON (Red)",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/file-json-color-red-icon.svg",
+          "description": "JSON file icon with red color"
+        },
+        {
+          "name": "Settings",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/file-settings-color-icon.svg",
+          "description": "Settings file icon"
+        },
+        {
+          "name": "HTML",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/html-5.svg",
+          "description": "HTML file icon"
+        },
+        {
+          "name": "Image",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/image-file.svg",
+          "description": "Image file icon"
+        },
+        {
+          "name": "Java",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/java.svg",
+          "description": "Java file icon"
+        },
+        {
+          "name": "JavaScript",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/javascript.svg",
+          "description": "JavaScript file icon"
+        },
+        {
+          "name": "Markdown",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/markdown-icon.svg",
+          "description": "Markdown file icon"
+        },
+        {
+          "name": "Maven",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/maven-svgrepo-com.svg",
+          "description": "Maven file icon"
+        },
+        {
+          "name": "PDF",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/pdf-icon.svg",
+          "description": "PDF file icon"
+        },
+        {
+          "name": "PowerShell",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/powershell.svg",
+          "description": "PowerShell script file icon"
+        },
+        {
+          "name": "Python",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/python.svg",
+          "description": "Python file icon"
+        },
+        {
+          "name": "SVG",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/svg-icon.svg",
+          "description": "SVG file icon"
+        },
+        {
+          "name": "TypeScript",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/typescript.svg",
+          "description": "TypeScript file icon"
+        },
+        {
+          "name": "XML",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/xml-code-file-icon.svg",
+          "description": "XML file icon"
+        },
+        {
+          "name": "YAML",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/file/yaml.svg",
+          "description": "YAML file icon"
+        }
+      ]
+    },
+    "folder": {
+      "description": "Icons representing folders and directory structures",
+      "icons": [
+        {
+          "name": "Folder",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/folder/folder.svg",
+          "description": "Closed folder icon"
+        },
+        {
+          "name": "Lock",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/folder/lock.svg",
+          "description": "Locked folder icon"
+        },
+        {
+          "name": "Opened Folder",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/folder/opened-folder.svg",
+          "description": "Open folder icon"
+        }
+      ]
+    },
+    "framework": {
+      "description": "Icons representing various frameworks, tools, and technologies",
+      "icons": [
+        {
+          "name": "Apache Maven",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/apachemaven.svg",
+          "description": "Apache Maven icon"
+        },
+        {
+          "name": "Docker",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/docker.svg",
+          "description": "Docker icon"
+        },
+        {
+          "name": "Git",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/git.svg",
+          "description": "Git icon"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/github.svg",
+          "description": "GitHub icon"
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/intellij-idea.svg",
+          "description": "IntelliJ IDEA icon"
+        },
+        {
+          "name": "JWT",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/jwt.svg",
+          "description": "JSON Web Token (JWT) icon"
+        },
+        {
+          "name": "Kubernetes",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/kubernetes-svgrepo-com.svg",
+          "description": "Kubernetes icon"
+        },
+        {
+          "name": "MongoDB",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/mongodb.svg",
+          "description": "MongoDB icon"
+        },
+        {
+          "name": "Node.js",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/node-js-svgrepo-com.svg",
+          "description": "Node.js icon"
+        },
+        {
+          "name": "PostgreSQL",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/postgresql.svg",
+          "description": "PostgreSQL icon"
+        },
+        {
+          "name": "REST API",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/rest-api-icon.svg",
+          "description": "REST API icon"
+        },
+        {
+          "name": "Script",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/script.svg",
+          "description": "Script icon"
+        },
+        {
+          "name": "Search",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/search.svg",
+          "description": "Search icon"
+        },
+        {
+          "name": "Spring Boot",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/spring-boot.svg",
+          "description": "Spring Boot icon"
+        },
+        {
+          "name": "Thymeleaf",
+          "url": "https://raw.githubusercontent.com/joshuasalcedo-dev/icons/main/icons/framework/thymeleaf.svg",
+          "description": "Thymeleaf template engine icon"
+        }
+      ]
+    }
+  }
+}
