@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styles */
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+/* Layout styles */
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* Main content area */
+#content-area {
+    flex: 1;
+    padding: 1.5rem;
+    overflow: auto;
+    background-color: white;
+}
+
+/* Sidebar styles */
+#sidebar {
+    min-width: 200px;
+    width: 300px;
+    max-width: 50%;
+    background-color: #e5e7eb;
+    overflow-y: auto;
+    transition: width 0.3s;
+}
+
+#sidebar > div {
+    padding: 1rem;
+}
+
+/* Search input styles */
+#search {
+    padding: 0.5rem 0.75rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 1px solid #d1d5db;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+#search:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+/* Resizer styles */
+#resizer {
+    width: 0.25rem;
+    height: 100%;
+    background-color: #9ca3af;
+    cursor: col-resize;
+    transition: background-color 0.2s;
+}
+
+#resizer:hover {
+    background-color: #3b82f6;
+}
+
+#resizer:active {
+    background-color: #1d4ed8;
+}
+
+/* Tree view styles */
+.tree-view {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+.tree-view ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    margin: 0;
+}
+
+.tree-view li {
+    margin: 0.25rem 0;
+    position: relative;
+}
+
+/* Tree node styles */
+.tree-node {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.tree-node:hover {
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+.tree-node.selected {
+    background-color: rgba(59, 130, 246, 0.2);
+}
+
+/* Icon styling */
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+}
+
+/* Toggle button for folders */
+.toggle {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.25rem;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    transition: transform 0.2s;
+}
+
+.toggle.open {
+    transform: rotate(90deg);
+}
+
+/* Styling for the content view */
+.content-view {
+    height: 100%;
+}
+
+.empty-state {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+}
+
+/* Empty state icon and text */
+.empty-state svg {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.empty-state p {
+    font-size: 1.25rem;
+}
+
+/* Styles for when dragging the resizer */
+.resizing {
+    cursor: col-resize;
+    user-select: none;
+}
+
+/* File info display */
+.file-info {
+    padding: 1rem;
+}
+
+.file-path {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+.file-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.file-name img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.file-name h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.file-note {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f3f4f6;
+    border-radius: 0.25rem;
+}
+
+.file-note p + p {
+    margin-top: 0.5rem;
+}
+
+/* Loading indicator */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.loading-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 4px solid #3b82f6;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Code highlighting */
+.code-content {
+    font-family: 'Consolas', 'Monaco', monospace;
+    white-space: pre;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    overflow-x: auto;
+}
